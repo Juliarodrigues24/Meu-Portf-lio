@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+      background: #fff0f5;
+}  
+
+.meus{
+    width: 100%;
+    background: linear-gradient(#cf9bcc, #fff0f5);
+    padding: 65px 0;
+}
+
+.menu-mobile{
+    position: relative;   
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+     position: absolute;
+     top:10px;
+     right: auto;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 18px;    
+}
+
+.container-informacoes {
+    width: 830px;
+    height: 280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.informacoes-texto{
+    position: absolute;
+    left: 0;
+}
+
+.sobremim{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    border-radius: 800%;
+}
+
+main{
+    width: 820px;
+    margin: 0 auto;
+}
+  
+.tudosobremim{
+      text-align: center;
+      font-size: 17px;
+      padding: 10px;
+}
+  
+.tudosobremim h3{
+    text-align: center;
+    width: 30%;
+    margin: 30px auto 15px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+} 
+  
+.informacoes {
+    position: relative;
+    margin-top: 4px;
+  }
+  
+.informacoes p {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: 48px;
+}
+
+.titulo{
+    color: #a33e9e;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.titu:before{
+    content: "★";
+}
+
+.icones {
+    width: 100px;
+    padding: 15px;
+    margin: right;
+}
+  
+.final{
+  text-align: center;
+  font-size: 17px;
+}
+  
+footer{
+  background:linear-gradient(#fff0f5,#e0bcdd );
+  padding: 20px;
+}
+  
+footer a{
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}  
+
+.cor{
+    background: linear-gradient(#fff0f5, #e0bcdd,#fff0f5);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.icones-informacoes {
+    width: 50px;
+}
+  
+@media screen and (max-width:860px) {
+    nav {
+        top: -25px;
+        width: 360px;
+        text-align: center;
+    }
+     
+    nav a {
+        font-size: 12px;
+    }
+
+    .container-informacoes {
+        width: 500px;
+      }
+    
+      .sobremim {
+        width: 80px;
+        right: 40px;
+        top: 60px;
+      }
+    
+      main {
+        width: 500px;
+      }
+      
+      .tudosobremim h3 {
+        font-size: 16px;
+      }
+}
